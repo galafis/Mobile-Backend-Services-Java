@@ -1,4 +1,4 @@
-package com.galafis.mobile-backend-services-java;
+package com.galafis.mobilebackendservicesjava;
 
 import java.util.*;
 import java.util.concurrent.*;
