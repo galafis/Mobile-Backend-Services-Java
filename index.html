@@ -3,46 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile-Backend-Services-Java Demo</title>
+    <title>Mobile-Backend-Services-Java</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
+            padding: 0;
+            background-color: #f0f2f5;
             color: #333;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
         }
         .container {
-            max-width: 800px;
-            margin: 30px auto;
-            background: #fff;
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
             padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
-        h1 {
-            color: #0056b3;
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 20px;
         }
-        a {
-            color: #0056b3;
+        p {
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .footer {
+            margin-top: auto;
+            padding: 20px 0;
+            background-color: #2c3e50;
+            color: #ffffff;
+            font-size: 0.9em;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+        .footer a {
+            color: #ffffff;
             text-decoration: none;
         }
-        a:hover {
+        .footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="header">
         <h1>Mobile-Backend-Services-Java</h1>
-        <p>Este é um sistema de backend móvel profissional desenvolvido em Java, focado em gerenciamento de dados, processamento assíncrono e análise de informações para aplicações móveis de alto desempenho.</p>
-        <p>Para mais detalhes sobre o projeto, código-fonte e como utilizá-lo, por favor, visite o repositório GitHub:</p>
-        <p><a href="https://github.com/galafis/Mobile-Backend-Services-Java">Repositório GitHub</a></p>
-        <p>This is a professional mobile backend system developed in Java, focused on data management, asynchronous processing, and information analysis for high-performance mobile applications.</p>
-        <p>For more details about the project, source code, and how to use it, please visit the GitHub repository:</p>
-        <p><a href="https://github.com/galafis/Mobile-Backend-Services-Java">GitHub Repository</a></p>
+    </div>
+    <div class="container">
+        <img src="docs/hero-image.png" alt="Mobile Backend Services Java Hero Image" class="hero-image">
+        <h2>Bem-vindo ao Mobile-Backend-Services-Java</h2>
+        <p>Este projeto demonstra habilidades profissionais de desenvolvimento em Java com práticas modernas, arquitetura de código limpo e implementações padrão da indústria para serviços de backend móvel.</p>
+        <p>Focado em gerenciamento de dados, processamento assíncrono e análise de informações para aplicações móveis de alto desempenho.</p>
+        <a href="https://github.com/galafis/Mobile-Backend-Services-Java" class="button">Visitar Repositório GitHub</a>
+        
+        <h2 style="margin-top: 50px;">Welcome to Mobile-Backend-Services-Java</h2>
+        <p>This project demonstrates professional Java development skills with modern best practices, clean code architecture, and industry-standard implementations for mobile backend services.</p>
+        <p>Focused on data management, asynchronous processing, and information analysis for high-performance mobile applications.</p>
+        <a href="https://github.com/galafis/Mobile-Backend-Services-Java" class="button">Visit GitHub Repository</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Gabriel Demetrios Lafis. All rights reserved.</p>
+        <p>Developed with passion and precision.</p>
     </div>
 </body>
 </html>

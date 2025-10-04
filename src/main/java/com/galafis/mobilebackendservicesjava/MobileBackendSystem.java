@@ -15,8 +15,8 @@ import java.time.format.DateTimeFormatter;
  */
 public class MobileBackendSystem {
     
-    private final List<DataRecord> dataRecords;
-    private final ExecutorService executorService;
+    public final List<DataRecord> dataRecords;
+    public final ExecutorService executorService;
     private final Map<String, Object> configuration;
     
     public MobileBackendSystem() {
@@ -149,7 +149,7 @@ public class MobileBackendSystem {
     /**
      * Calculate summary statistics
      */
-    private Map<String, Double> calculateSummary() {
+    public Map<String, Double> calculateSummary() {
         Map<String, Double> summary = new HashMap<>();
         
         summary.put("totalRecords", (double) dataRecords.size());
@@ -178,7 +178,7 @@ public class MobileBackendSystem {
     /**
      * Generate insights from data analysis
      */
-    private List<String> generateInsights() {
+    public List<String> generateInsights() {
         List<String> insights = new ArrayList<>();
         
         // Category distribution analysis
@@ -213,7 +213,7 @@ public class MobileBackendSystem {
     /**
      * Generate recommendations based on analysis
      */
-    private List<String> generateRecommendations() {
+    public List<String> generateRecommendations() {
         List<String> recommendations = new ArrayList<>();
         
         if (dataRecords.size() < 100) {
