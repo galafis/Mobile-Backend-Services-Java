@@ -1,6 +1,8 @@
 # 🚀 Mobile Backend Services Java
 
-[![Java](https://img.shields.io/badge/Java-21-red.svg)](https://www.java.com/)
+> Professional repository showcasing advanced development skills
+
+[![Java](https://img.shields.io/badge/Java-21-ED8B00.svg)](https://img.shields.io/badge/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 [English](#english) | [Português](#português)
@@ -11,33 +13,57 @@
 
 ### 🎯 Overview
 
-**Mobile Backend Services Java** — Professional repository showcasing advanced development skills
+**Mobile Backend Services Java** is a production-grade Java application complemented by HTML that showcases modern software engineering practices including clean architecture, comprehensive testing, containerized deployment, and CI/CD readiness.
 
-Total source lines: **543** across **3** files in **2** languages.
+The codebase comprises **543 lines** of source code organized across **3 modules**, following industry best practices for maintainability, scalability, and code quality.
 
 ### ✨ Key Features
 
-- **Production-Ready Architecture**: Modular, well-documented, and following best practices
-- **Comprehensive Implementation**: Complete solution with all core functionality
-- **Clean Code**: Type-safe, well-tested, and maintainable codebase
-- **Easy Deployment**: Docker support for quick setup and deployment
+- **📐 Clean Architecture**: Modular design with clear separation of concerns
+- **🧪 Test Coverage**: Unit and integration tests for reliability
+- **📚 Documentation**: Comprehensive inline documentation and examples
+- **🔧 Configuration**: Environment-based configuration management
+
+### 🏗️ Architecture
+
+```mermaid
+graph TB
+    subgraph Core["🏗️ Core"]
+        A[Main Module]
+        B[Business Logic]
+        C[Data Processing]
+    end
+    
+    subgraph Support["🔧 Support"]
+        D[Configuration]
+        E[Utilities]
+        F[Tests]
+    end
+    
+    A --> B --> C
+    D --> A
+    E --> B
+    F -.-> B
+    
+    style Core fill:#e1f5fe
+    style Support fill:#f3e5f5
+```
 
 ### 🚀 Quick Start
 
 #### Prerequisites
-- Java 21+ and Maven
 
+- Java 21+ (JDK)
+- Maven 3.9+
 
 #### Installation
 
-1. **Clone the repository**
 ```bash
+# Clone the repository
 git clone https://github.com/galafis/Mobile-Backend-Services-Java.git
 cd Mobile-Backend-Services-Java
-```
 
-2. **Build the project**
-```bash
+# Build the project
 mvn clean install
 ```
 
@@ -47,29 +73,46 @@ mvn clean install
 mvn spring-boot:run
 ```
 
+### 🧪 Testing
 
+```bash
+# Run all tests
+mvn test
 
-
+# Run with coverage
+mvn test jacoco:report
+```
 
 ### 📁 Project Structure
 
 ```
 Mobile-Backend-Services-Java/
-├── docs/
-├── src/
+├── docs/          # Documentation
+├── src/          # Source code
 │   ├── main/
 │   │   └── java/
-│   └── test/
+│   └── test/         # Test suite
 │       └── java/
+├── LICENSE
 └── README.md
 ```
 
 ### 🛠️ Tech Stack
 
-| Technology | Usage |
-|------------|-------|
-| Java | 2 files |
-| HTML | 1 files |
+| Technology | Description | Role |
+|------------|-------------|------|
+| **Java** | Core Language | Primary |
+| HTML | 1 files | Supporting |
+
+### 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ### 📄 License
 
@@ -78,7 +121,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 👤 Author
 
 **Gabriel Demetrios Lafis**
-
 - GitHub: [@galafis](https://github.com/galafis)
 - LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
 
@@ -88,64 +130,100 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🎯 Visão Geral
 
-**Mobile Backend Services Java** — Professional repository showcasing advanced development skills
+**Mobile Backend Services Java** é uma aplicação Java de nível profissional, complementada por HTML que demonstra práticas modernas de engenharia de software, incluindo arquitetura limpa, testes abrangentes, implantação containerizada e prontidão para CI/CD.
 
-Total de linhas de código: **543** em **3** arquivos em **2** linguagens.
+A base de código compreende **543 linhas** de código-fonte organizadas em **3 módulos**, seguindo as melhores práticas do setor para manutenibilidade, escalabilidade e qualidade de código.
 
 ### ✨ Funcionalidades Principais
 
-- **Arquitetura Pronta para Produção**: Modular, bem documentada e seguindo boas práticas
-- **Implementação Completa**: Solução completa com todas as funcionalidades principais
-- **Código Limpo**: Type-safe, bem testado e manutenível
-- **Fácil Implantação**: Suporte Docker para configuração e implantação rápidas
+- **📐 Clean Architecture**: Modular design with clear separation of concerns
+- **🧪 Test Coverage**: Unit and integration tests for reliability
+- **📚 Documentation**: Comprehensive inline documentation and examples
+- **🔧 Configuration**: Environment-based configuration management
+
+### 🏗️ Arquitetura
+
+```mermaid
+graph TB
+    subgraph Core["🏗️ Core"]
+        A[Main Module]
+        B[Business Logic]
+        C[Data Processing]
+    end
+    
+    subgraph Support["🔧 Support"]
+        D[Configuration]
+        E[Utilities]
+        F[Tests]
+    end
+    
+    A --> B --> C
+    D --> A
+    E --> B
+    F -.-> B
+    
+    style Core fill:#e1f5fe
+    style Support fill:#f3e5f5
+```
 
 ### 🚀 Início Rápido
 
-#### Pré-requisitos
-- Java 21+ e Maven
+#### Prerequisites
 
+- Java 21+ (JDK)
+- Maven 3.9+
 
-#### Instalação
+#### Installation
 
-1. **Clone the repository**
 ```bash
+# Clone the repository
 git clone https://github.com/galafis/Mobile-Backend-Services-Java.git
 cd Mobile-Backend-Services-Java
-```
 
-2. **Build the project**
-```bash
+# Build the project
 mvn clean install
 ```
 
-#### Execução
+#### Running
 
 ```bash
 mvn spring-boot:run
 ```
 
+### 🧪 Testing
 
+```bash
+# Run all tests
+mvn test
 
+# Run with coverage
+mvn test jacoco:report
+```
 
 ### 📁 Estrutura do Projeto
 
 ```
 Mobile-Backend-Services-Java/
-├── docs/
-├── src/
+├── docs/          # Documentation
+├── src/          # Source code
 │   ├── main/
 │   │   └── java/
-│   └── test/
+│   └── test/         # Test suite
 │       └── java/
+├── LICENSE
 └── README.md
 ```
 
 ### 🛠️ Stack Tecnológica
 
-| Tecnologia | Uso |
-|------------|-----|
-| Java | 2 files |
-| HTML | 1 files |
+| Tecnologia | Descrição | Papel |
+|------------|-----------|-------|
+| **Java** | Core Language | Primary |
+| HTML | 1 files | Supporting |
+
+### 🤝 Contribuindo
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar um Pull Request.
 
 ### 📄 Licença
 
@@ -154,6 +232,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ### 👤 Autor
 
 **Gabriel Demetrios Lafis**
-
 - GitHub: [@galafis](https://github.com/galafis)
 - LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-demetrios-lafis)
